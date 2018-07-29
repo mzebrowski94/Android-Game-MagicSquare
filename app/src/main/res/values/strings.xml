@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MagicSquare</string>
+
+    <!--Menu Page - Buttons-->
+    <string name="button_new_game">Start new game</string>
+    <string name="button_level">Change difficulty</string>
+    <string name="button_quit">Quit game</string>
+    <string name="info_current_level">Current difficulty:</string>
+    <string name="menu_gameimage">GameImage</string>
+
+    <!--Game Page - Bottom navigation_menu bar-->
+    <string name="title_menu_menu">Menu</string>
+    <string name="title_menu_scores">Scores</string>
+    <string name="title_menu_rules">Rules</string>
+
+    <!--Game Page - Bottom navigation_game bar-->
+    <string name="title_game_submit">Submit</string>
+    <string name="title_game_new">New</string>
+    <string name="title_game_hint">Hint</string>
+
+    <!--Game Page - Chronometer-->
+    <string name="game_chronometer">Time elapsed - %s</string>
+
+    <!--Score Page-->
+    <string name="title_activity_score_page">Scores</string>
+    <string name="button_score">Scores</string>
+    <string name="scorepage_date">Date:</string>
+    <string name="scorepage_score">Score:</string>
+
+    <!--Level Page-->
+    <string name="action_settings">Settings</string>
+    <string name="seekbar_difficulty">Change difficulty:</string>
+    <string name="text_difficulty">(At level k, 9 − k digits are already present in the array)</string>
+    <string name="chosen_difficulty">Chosen Difficulty:</string>
+    <string name="submit_difficulty_level">Submit difficulty level</string>
+</resources>

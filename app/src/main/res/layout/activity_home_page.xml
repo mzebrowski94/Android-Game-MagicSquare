@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/menu_gameimage"
+                android:src="@mipmap/imgmagicsquare" />
+
+            <Button
+                android:id="@+id/buttonNewGame"
+                android:layout_width="328dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="onClickStartNewGameActivity"
+                android:text="@string/button_new_game"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/buttonChangeLevel"
+                android:layout_width="328dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="onClickChangeDifficulty"
+                android:text="@string/button_level"
+                android:textColor="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="328dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp">
+
+                <Button
+                    android:id="@+id/btnScore"
+                    android:layout_width="160dp"
+                    android:layout_height="69dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="onClickShowScore"
+                    android:text="@string/button_score"
+                    android:textColor="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/btnNewGame"
+                    android:layout_width="160dp"
+                    android:layout_height="69dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:onClick="onClickQuitGame"
+                    android:text="@string/button_quit"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
