@@ -11,4 +11,5 @@ In this magic square variant player must fill the square in such a way that the 
 
 **Preview:**
 <img src="app/src/test/java/preview/Android1.gif?raw=true" >
+
 <img src="app/src/test/java/preview/Android2.gif?raw=true" >
